@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">SocialMedia</string>
+
+    <string name="facebook_app_id">2255305214752297</string>
+    <string name="fb_login_protocol_scheme">fb2255305214752297</string>
+    <string name="log_out">LOGOUT</string>
+    <string name="first_name">First Name</string>
+    <string name="last_name">Last Name</string>
+
+    <string name="client_id">f4636bcf9a8f489780ff5b9d78c52978</string>
+    <string name="redirect_url">https://www.instagram.com/mirsalapp/</string>
+    <string name="base_url">https://api.instagram.com/</string>
+    <string name="get_user_info_url">https://api.instagram.com/v1/users/self/?access_token=</string>
+
+    <string name="com.twitter.sdk.android.CONSUMER_KEY">MkBKAN12Yx6x9I9OTSddeNWNT</string>
+    <string name="com.twitter.sdk.android.CONSUMER_SECRET">ybASTtR8cqX7ULOST2BkuZxvvNjbAyKxJJHOv6uUoEEOyuJcay </string>
+
+
+</resources>

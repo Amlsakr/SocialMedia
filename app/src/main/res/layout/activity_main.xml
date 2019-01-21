@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#000"
+
+    android:padding="10dp"
+    tools:context=".MainActivity">
+
+
+
+
+    <com.facebook.login.widget.LoginButton
+        android:id="@+id/login_button"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:paddingBottom="15dp"
+        android:paddingTop="15dp"
+        android:paddingStart="15dp"
+        android:paddingEnd="15dp"
+        android:layout_gravity="center"
+ />
+
+    <com.google.android.gms.common.SignInButton
+        android:id="@+id/sign_in_button"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+
+ />
+
+    <Button
+        android:id="@+id/instagramLoginButton"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:onClick="onClick"
+        android:layout_centerHorizontal="true"
+        android:text="INSTAGRAM LOGIN"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"/>
+
+    <com.twitter.sdk.android.core.identity.TwitterLoginButton
+        android:id="@+id/twitterLoginButton"
+        android:layout_width="210dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+       />
+
+
+
+
+
+
+</LinearLayout>
